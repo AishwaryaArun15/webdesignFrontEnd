@@ -1,0 +1,161 @@
+#box
+{
+    background-color: darkgray;
+    width: 150px;
+    height: 150px;
+    border: white 5px solid;
+    padding: 5%;
+}
+header{
+    background-color: burlywood;
+}
+body
+{
+    background-color: rgb(53, 52, 52);
+   
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.player1
+{
+    background-color: rgb(215, 235, 252);
+    text-align: center;
+    font-size: 500%;
+
+}
+.player2
+{
+    background-color: rgb(203, 241, 203);
+    text-align: center;
+    font-size: 500%;
+}
+.board , .end
+{  
+
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.hide
+{
+    opacity: 0;
+}
+.seek
+{
+    opacity: 1;
+}
+.x1
+{
+    font-size: 300%;
+    color: rgb(253, 128, 128);
+    position: fixed;
+    top: 20%;
+    left: 12%;
+    transform: rotate(30deg);
+}
+.x2
+{
+    font-size: 300%;
+    color: rgb(143, 143, 252);
+    position: fixed;
+    top: 70%;
+    left: 90%;
+    transform: rotate(60deg);
+}
+.x3
+{
+    font-size: 500%;
+    color: rgb(106, 243, 106);
+    position: fixed;
+    bottom: 50%;
+    left: 70%;
+
+}
+.x4
+{
+    font-size: 360%;
+    color: rgb(255, 255, 203);
+    position: fixed;
+    top: 45%;
+    left: 2%;
+}
+.x5
+{
+    font-size: 370%;
+    color: rgb(199, 147, 248);
+    position: fixed;
+    bottom: 67%;
+    left: 90%;
+    transform: rotate(120deg);
+}
+.x6
+{
+    font-size: 400%;
+    color: pink;
+    position: fixed;
+    top: 80%;
+    transform: rotate(-30deg);
+    left: 20%;
+}
+
+.o1
+{
+    font-size: 400%;
+    color: rgb(209, 184, 209);
+    position: fixed;
+    top: 50%;
+    left: 15%;
+}
+.o2
+{
+    font-size: 300%;
+    color: rgb(250, 250, 168);
+
+    position: fixed;
+    top: 60%;
+    right: 25%;
+}
+.o3
+{
+    font-size: 600%;
+    color: rgba(219, 85, 107, 0.61);
+    position: fixed;
+    bottom: 40%;
+    right: 10%;
+}
+.o4
+{
+    font-size: 450%;
+    color: rgb(195, 238, 116);
+
+    position: fixed;
+    top: 70%;
+    left: 2%;
+}
+.o5
+{
+    font-size: 510%;
+    
+    color: rgb(245, 182, 87);
+    position: fixed;
+    top: 87%;
+    right: 10%;
+}
+.o6
+{
+    font-size: 320%;
+    
+    color: rgb(165, 224, 248);
+    position: fixed;
+    bottom: 65%;
+    left: 20%;
+}
+
