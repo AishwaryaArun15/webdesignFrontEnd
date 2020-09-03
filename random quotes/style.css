@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.circle1
+{
+    background-color: rgba(250, 149, 149, 0.76);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    animation: scales,3s,infinite,ease-in-out;
+}
+.circle2
+{
+    background-color: rgba(0, 0, 255, 0.493);
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    top: 15%;
+    position: fixed;
+    left: 47%;
+    animation: fade , 4s, infinite, ease-in-out ;
+    animation-delay: 3s;
+}
+.circle3
+{
+    background-color: rgba(87, 119, 87, 0.897);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 70%;
+    right:10%;
+    animation: fade , 4s, infinite, ease-in-out ;
+}
+.circle4
+{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 5%;
+    animation: fade , 4s, infinite, ease-in-out ;
+    left: 35%;
+}
+.circle5
+{
+    background-color: rgba(114, 68, 146, 0.945);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 40%;
+    right:90%;
+    animation: fade , 4s, infinite, ease-in-out ;
+}
+.circle6
+{
+    background-color: pink;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 90%;
+    right:10%;
+    animation: fade , 4s, infinite, ease-in-out ;
+}
+.square1
+{
+    background-color: rgb(240, 149, 243);
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    left: 30%;
+    transform: skew(-30deg,30deg);
+
+}
+.square2
+{
+    background-color: rgb(235, 197, 252);
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    left: 0%;
+    top: 70%;
+    transform: skew(-30deg,30deg);
+}
+.square3
+{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    top: 75%;
+    right: 40%;
+    transform: skew(-30deg,30deg);
+}
+.square4
+{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    left: 90%;
+    top: 50%;
+    
+    animation: fade , 4s, infinite, ease-in-out ;
+    animation-delay: 3s;
+    transform: skew(-30deg,30deg);
+}
+.square5
+{
+    background-color: rgb(185, 185, 236);
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    left: 20%;
+    top:85%;
+    animation: scales,1s,infinite ,ease-in-out;
+
+    transform: skew(-30deg,30deg);
+}
+.square6
+{
+    background-color: rgb(245, 122, 122);
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    position: fixed;
+    left: 70%;
+    transform: skew(-30deg,30deg);
+    animation: fade , 4s, infinite, ease-in-out ;
+}
+
+#card1
+{
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 1;
+}
+.chead, .cfoot
+{
+    background-color:rgb(248, 247, 179);
+}
+.cbody
+{
+    background-color: rgb(254, 255, 213);
+    height: 100%;
+    
+}
+.card-body
+{
+    overflow:auto;
+}
+@keyframes scales
+{
+    50%
+    {
+        transform: scale(1.5);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+@keyframes fade
+{
+    50%{
+        opacity: 0.25;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
