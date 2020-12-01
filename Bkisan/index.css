@@ -42,7 +42,7 @@ input
       display: flex;
   }
   .nav-link{
-      color:rgba(0, 255, 115, 0.74);
+      color:green;
   }
   .card-link
   {
@@ -61,10 +61,9 @@ body
   .nav-link:hover
   {
       color: springgreen;
-      background-color: rgb(75, 74, 74);
+      text-decoration: underline;
   }
   .card-link:hover
   {
-      color: rgb(1, 155, 155);
-      
+      color: rgb(1, 155, 155);   
   }
