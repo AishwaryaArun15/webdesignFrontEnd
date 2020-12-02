@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+input
+{
+    margin: 1%;
+    color: rgb(22, 22, 22) ;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(22, 22, 22);
+    opacity: 1;
+  }
+  .floatLeft
+  {
+      float: right;
+  }
+  .floatRight
+  {
+      float: left;
+  }
+
+  #accordion , .card
+  {
+      margin: 1.5%;
+  }
+  .main-head
+  {
+      color: rgb(39, 247, 39);
+      float: right;
+  }
+  img
+  {
+      width: 5%;
+      height: 5%;
+      margin: 1%;
+  }
+  .head-row 
+  {
+      display: flex;
+  }
+  .nav-link{
+      color:rgb(103, 196, 103);
+      margin: 1%;
+  }
+  .card-link
+  {
+      color: green;
+  }
+body
+  {
+      background-color: rgb(9, 20, 7);
+      width: min-content;
+      overflow-x: hidden;
+
+  }
+  
+  .head-row1:hover
+  {
+      color: rgb(0, 155, 77);
+      text-decoration: underline;
+  }
+  
+  body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top; 
+    /* background-image: linear-gradient(to right,rgba(44, 44, 44, 0.678),rgb(2, 48, 2), rgb(17, 128, 17),rgb(119, 240, 119)); */
+}
+.d1
+{
+    width: 170%;
+    min-height: 100vh;
+    border-radius: 1%;
+    background-color:  rgba(46, 139, 86, 0.521);
+    transform: rotate(5deg) translate(-50%,-30%);
+    opacity: 0.8;
+    border: black 1px solid;
+    position: absolute;
+}
+.d2
+{
+    width: 150%;
+    min-height: 60vh;
+    background-color:rgba(89, 173, 89, 0.616);
+    border: black 1px solid;
+position: absolute;
+transform: rotate(15deg) ;;
+}
+.body-cont
+{
+    position: absolute;
+   
+    z-index: 9;
+}
+.navbar
+{
+    background-color: black;
+    opacity: 0.95;
+}
+
+.nav-tabs
+{
+    margin-top: 1%;
+    margin-bottom: 0.3%;
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    
+}
+.nav-item
+{
+    margin:0% 0% 10% 0%;
+    width: 51%;
+   
+}
+.dropdown-toggle , .dropdown-item, .dropdown-menu
+{   color: rgba(128, 255, 0, 0.856) ;
+    background-color: black;
+}
+.head-row1
+{
+    display: flex;
+    color: rgba(128, 255, 0, 0.856);
+}
+.btn:hover
+{
+    color: wheat;
+}
+.pd , .bd ,.od
+{
+    color: rgb(70, 247, 70);
+}
+.pd:hover ,.bd:hover , .od:hover
+{
+   color: greenyellow; 
+}
