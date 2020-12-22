@@ -1,0 +1,39 @@
+import React, {Component} from "react"
+class Table extends Component {
+  constructor(props) {
+     super(props) 
+     this.state = { 
+        row: [
+           { depdt:"", famt: 0, ref:0, bank:""}
+        ],
+        table:[]
+     }
+  }
+  renderTableData=()=> {
+    
+        var current = this.state.table;
+        current.push(<tr>
+          <td scope="col"><input type="date" class="form-control" id="depdt1"/></td>             // tracking ids?............
+          <td scope="col"><input type="number" class="form-control"  id="famt3"/></td>
+          <td scope="col"><input type="number" class="form-control"  id="ref3"/></td>
+          <td scope="col"><input type="number" class="form-control"  id="bank3"/></td>
+        </tr>)
+        this.setState({...this.state,table:current});
+
+       
+    
+ }
+  render() {
+     return (
+        <div>
+           <h1>React Dynamic Table</h1>
+           <table>
+             {this.state.table}
+           </table>
+           <button onClick={this.renderTableData}>Add+</button>
+        </div>
+     )
+  }
+}
+
+export default Table
