@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@1,700&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway',sans-serif ;
+
+}
+.wieInfo
+{height: 100vh;
+  margin: 1%;
+}
+.cont
+{
+  /* background-image: linear-gradient(to bottom,indigo,purple); */
+  background-color: rgba(255, 255, 255, 0);
+ text-align:center;
+ color:gainsboro;
+ 
+}
+body
+{
+  /* background-image: linear-gradient(115deg,rgba(6, 2, 10, 0.918),rgb(12, 0, 20),rgba(8, 3, 14, 0.822)); */
+
+background-image: linear-gradient(to bottom,rgb(71, 39, 151),rgb(96, 57, 196),rgb(87,57,177));
+}
+/* .dropdown
+{
+  transform: translateX(-105v
+} */
+.menu
+{
+  color:rgba(255, 168, 255, 0.918) ;
+background-color: rgba(255, 255, 255, 0);
+  border: none;
+font-size: 2.5em;
+margin-left: 1%;
+padding: 0.4%;
+}
+.navbar
+{  
+  /* background-color: ivory; */
+  background-image: linear-gradient(115deg,rgba(6, 2, 10, 0.918),rgb(12, 0, 20),rgba(8, 3, 14, 0.822));
+
+}
+.nav-link 
+{
+  text-decoration: none;
+  color:rgb(5,186,155);
+  font-size: large;
+  font-weight: 900;
+  transition: all 0.6s ease;
+  
+ 
+
+}
+.nav-link:hover
+{
+  color:rgb(5, 186, 126);
+  transform: translateY(2px);
+  
+}
+.nav-item
+{
+  border-bottom: rgb(27, 129, 86) 1px solid;
+  border-bottom-style: ridge;
+  margin-left: 20px;
+  
+}
+li{
+  list-style: none;
+}
+.underline-magical {
+  background-image: linear-gradient(120deg, #46f7873f 0%, #8fd2f444 100%);
+  background-repeat: no-repeat;
+  background-size: 16% 0.2em;
+  background-position: 50% 57%;
+  font-size: x-large;
+  transition: background-size 0.25s ease-in;
+  border-bottom-right-radius: 20%;
+  padding: 5%;
+  color:rgba(106, 250, 178, 0.918);
+
+}
+/* .underline-magical:hover {
+  background-size: 100% 100%;
+transform-style: preserve-3d;
+color:rgba(106, 250, 178, 0.918);
+} */
+
+.register ,.register1
+{
+background-color: rgba(255, 255, 255, 0);
+color: violet;
+font-size: x-large;
+padding: 0.2%;
+border: none;
+transform: translate(100vh,-10vh);
+border-bottom: springgreen 2px solid;
+
+
+}
+
+.register1
+{
+  background-color: rgba(255, 255, 255, 0);
+  color: springgreen;
+  border: springgreen 2px solid;
+  border-radius: 6%;
+  transform: translate(100vh,20vh);
+}
+.carousel-inner figure img {
+  width: 50%;
+  height:50%;
+  background-size: contain;
+  overflow: hidden;
+
+}
+.nav-head
+{
+  font-size: 7em;
+  text-align: center;
+  color: rgb(160, 221, 201);
+  font-family: 'Nosifer','Black Ops One', cursive;
+  animation: flash  infinite ease-out;
+  animation-delay: 10s;
+  animation-duration: 3.5s;
+}
+@keyframes flash
+{
+  0%{
+    color: rgb(160, 221, 201);
+  }
+  2%{
+    color: rgb(255, 242, 60);
+  }
+  4%{
+    color: rgb(160, 221, 201);
+  }
+  6%{
+    color: rgb(225, 0, 255);
+  }
+  8%{
+    color: rgb(160, 221, 201);
+  }
+  10%{
+    color: rgb(0, 26, 255);
+  }
+  
+  12%{
+    color: rgb(160, 221, 201);
+  }
+}
+.head
+{
+  font-size: 4em;
+  font-weight: 900;
+  color: rgba(240, 174, 98, 0.979);
+  text-align: center;
+  
+}
+.wieInfo>p
+{
+  font-size: 2em;
+  color: gainsboro;
+}
+/* Schedule */
+.schedule
+{
+  height: 100vh;
+background-image: linear-gradient(110deg,violet,indigo);
+}
+.schText  
+{
+  font-size: 2em;
+  color: gainsboro;
+}
+.schPic-text
+{
+  left: 10%;
+  top: 20%;
+  /* font-family: 'Nosifer', cursive; */
+  font-family: 'Limelight', cursive;
+        font-size: 7em;
+      position: relative;
+      z-index: 5;
+      /* color: rgb(28, 28, 29); */
+      color:rgb(36, 35, 35) ;
+      transform:  skew(-10deg) rotate(-10deg);
+}
+.schPic >span
+{
+  font-family: 'Train One', cursive;
+    background-image: linear-gradient(120deg, #46d87bb6 0%, #74caf5ad 100%);
+    background-repeat: no-repeat;
+    background-size: 200% 0.3em;
+    background-position: 0 85%;
+    font-size: x-large;
+    transition: background-size 0.25s ease-in;
+  /* border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%; */
+    font-size: 1em;
+}
+
+.schPic-kid 
+  {
+    position: absolute;
+    left: 32%;
+    top: 0%;
+    font-size: 32em;
+    color: palegreen;
+    z-index: 4;
+    font-family: 'Anonymous Pro',Arial, Helvetica, sans-serif ;
+  }
+  /* Rules */
+
+
+  .rules
+  {
+    height: 130vh;
+    /* background-image: linear-gradient(110deg,#46d87ce1 , #46d8a0e1 ); */
+    /* background-image: linear-gradient(-110deg,rgb(252, 252, 215), rgba(220, 220, 220, 0.87),rgba(250, 250, 177, 0.651)); */
+    /* background-image: linear-gradient(110deg,#ee74e218,#fee14023); */
+  background-image: linear-gradient(75deg,rgb(6, 2, 10),rgb(12, 0, 20),rgb(8, 3, 14));
+  /* background-image: linear-gradient(110deg,rgba(255, 192, 203, 0.63),white,rgba(198, 173, 230, 0.616)); */
+  }
+.rulText
+{
+  font-size:2em ;
+  color: rgb(169, 252, 211);
+}
+  .rulPic-text
+  {
+    left: 10%;
+    top: 20%;
+    /* font-family: 'Nosifer','Black Ops One', cursive; */
+    font-family: 'Black Ops One', cursive;
+          font-size: 7em;
+        position: relative;
+        z-index: 5;
+        color: rgb(253, 173, 186);
+        transform:  skew(-10deg) rotate(-10deg);
+  }
+
+  .rulPic-kid 
+  {
+    position: absolute;
+    left: 28%;
+    bottom: 0%;
+    font-size: 48em;
+    color: gainsboro;
+    z-index: 4;
+    font-family:'Anonymous Pro',Arial, Helvetica, sans-serif ;
+  }
+
+  /* Footer */
+  footer
+  {
+    background-image: linear-gradient(75deg,rgb(6, 2, 10),rgb(12, 0, 20),rgb(8, 3, 14));
+    height: max-content;
+    color: gainsboro;
+    padding: 1%;
+    text-align: center;
+   border-top: mediumpurple 1px solid;
+  }
+  .icons
+  { 
+    transform: translateX(23%);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+     
+  }
+  .icons>div
+  {
+      font-size: large;
+      margin: 3%;
+  }
+  
+  a>i
+  {
+      color: rgb(253, 181, 244);
+      margin: 2%;
+     
+  }
+  
+  i:hover 
+  {
+      transition: all 0.2s ease-in-out;
+      /* transform: scale(1.1); */
+      border-bottom: mediumpurple solid 1px;
+  }
+  a>i:hover
+  {
+      color: rgb(232, 118, 255);
+      
+  }
+  footer>h4{
+    color: rgb(139, 253, 228);
+    font-weight: 900;
+}
+  footer>div>h5
+  {
+    border-top: rgb(139, 253, 228) 2px solid;
+    margin: 1%;
+    padding: 1%;
+   font-size: medium;
+  }
+  
+  .car
+  {
+    transform: translate(50vh,18vh);
+    width: 100%;
+  
+  }
+
+  .carousel-item img
+  {
+
+    filter: grayscale(40%);
+    transition:  filter ease 0.5s;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-item img:hover
+  {
+
+    filter: grayscale(0%);
+  }
+ 
+ 
+  
+  .blink
+  {
+    color: gainsboro;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    transform: translateX(-15vh);
+    width: 100%;
+    float: left;
+    
+  }
+  /* blinks */
+
+  .rem
+  {
+    position: relative;
+    font-size:15em ;
+    float: right;
+    color: rgb(253, 181, 244);
+    z-index: 0;
+    /* width: 100%; */
+    /* font-weight: bold; */
+  }
+  .rem-kid
+  {
+    position: absolute;
+    font-size: 20px;
+    left: 10vh;
+    bottom: 10vh;
+   color: rgb(253, 253, 250);
+   z-index: 1;
+    font-weight: bolder;
+  }
+  .rem1
+  {
+    float:left;
+  }
+  .rem2
+  {
+
+    float: right;
+  }
